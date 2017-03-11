@@ -1,3 +1,6 @@
+set -x
+set -e
 path=$(config path)
 echo path is: $path
-echo OK
+cd $path
+prove -vr -e 'perl6 -Ilib' t/
