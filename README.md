@@ -1,10 +1,10 @@
 # SYNOPSIS
 
-Pre-commit hook - runs prove tests for perl6 project 
+Pre-commit hook - runs prove tests for Perl6 project 
 
 # INSTALL
 
-    $ sparrow plg install pelr6-prove
+    $ sparrow plg install perl6-prove
 
 # USAGE
 
